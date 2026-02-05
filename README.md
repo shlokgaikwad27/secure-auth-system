@@ -1,59 +1,28 @@
-# Secure Authentication System
-
-A simple backend authentication system built using Flask and JWT.  
-This project demonstrates secure user registration, login, and protected routes.
-
----
-
-## 🚀 Features
-- User Registration
-- Secure Password Hashing using bcrypt
-- User Login with JWT Token
-- Protected API Routes
-- SQLite Database
-
----
-
-## 🛠 Tech Stack
+🔐 Secure Authentication System
+A secure backend authentication system developed using Python and Flask. This project is created for internship submission and demonstrates best practices for user authentication using JWT tokens.
+👤 Author
+Name: Shlok Gaikwad
+Qualification: TE Artificial Intelligence & Data Science (AI & DS) Student
+📘 Project Overview
+This project implements a secure authentication mechanism including:
+- User registration with hashed passwords
+- User login with JWT token generation
+- Protected API routes accessible only to authenticated users
+🛠️ Tech Stack
 - Python
 - Flask
 - Flask-JWT-Extended
 - bcrypt
-- SQLite
-
----
-
-## ⚙️ How to Run the Project
-
-### 1️⃣ Install Dependencies
-```bash
-pip install flask flask-jwt-extended bcrypt
-2️⃣ Run the Application
-python app.py
-API Endpoints
-🔹 Register User
-
-POST /register
-
-{
-  "username": "admin",
-  "password": "admin123"
-}
-
-🔹 Login User
-
-POST /login
-
-Response:
-
-{
-  "access_token": "JWT_TOKEN"
-}
-
-🔹 Protected Route
-
-GET /profile
-
-Header:
-
-Authorization: Bearer JWT_TOKEN
+- SQLite Database
+🚀 Features
+- Secure user registration
+- Password hashing using bcrypt
+- JWT-based authentication
+- Protected endpoints
+- Lightweight and scalable design
+▶️ How to Run the Project
+1. Install required dependencies
+2. Run the Flask application
+3. Use API endpoints for register and login
+📌 Declaration
+This project is original work developed by the author for educational and internship evaluation purposes.
